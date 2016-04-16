@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :locations
   root :to  => 'be_prepared#index'
 
   match 'about_us', :to => 'be_prepared#about_us', via: :get

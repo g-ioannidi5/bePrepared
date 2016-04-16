@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails bePrepared: development" uuid="d4245455-ca53-4c16-98b4-214a2183cbf9">
+      <user-name>user</user-name>
+      <user-password>dfc8dfcfdffadfd8dfcfdfdadfcbdfd8dfcfdfcedf9b</user-password>
+      <schema-pattern>bePrepared.pg_catalog bePrepared.public</schema-pattern>
+      <default-schemas>bePrepared.public</default-schemas>
+    </data-source>
+  </component>
+</project>

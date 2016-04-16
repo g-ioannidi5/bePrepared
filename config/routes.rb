@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
-  get 'be_prepared/index'
 
-  get 'be_prepared/about_us'
+  root :to  => 'be_prepared#index'
 
-  get 'be_prepared/resources'
+  match 'about_us', :to => 'be_prepared#about_us', via: :get
 
-  get 'be_prepared/etsimation_flight'
+  match 'resources', :to => 'be_prepared#resources', via: :get
+
+  match 'etsimation_flight', :to => 'be_prepared#etsimation_flight', via: :get
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

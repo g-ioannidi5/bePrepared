@@ -7,44 +7,15 @@
              
             </div>
             </div>
-            <div class="col-footer col-md-3 col-xs-6">
-              <h3>Navigate</h3>
-              <ul class="no-list-style footer-navigate-section">
-                <%=link_to "Home", root_path%>
-             </li> 
-           <li>
-           <%=link_to "Polls", polls_path%>
-           </li>
-            <li>
-              <%=link_to "Questions", questions_path%>
-            </li>
-            <% if lecturer_signed_in? %>
-            <li><%=link_to "Subjects", subjects_path%></li>
-            <li><%=link_to "Access Codes", access_codes_path%></li>
-          <% end %>
-          <% if student_signed_in? %>
-            <li><%=link_to "Vote", vote_path%></li>
-            <li><%=link_to "History", history_path%></li>
-          <% end%>
-           <li><%=link_to "About", about_path%></li>
-              </ul>
-            </div>
-            
-            <div class="col-footer col-md-4 col-xs-6">
-              <h3>Contacts</h3>
-              <p class="contact-us-details">
-                  <b>Email:</b> <a href="mailto:g.ioannidi5@yahoo.co.uk">g.ioannidi5@yahoo.co.uk</a></br>
-                  <b>Website-Private Blog:</b> <a href="http://www.giorgosioannidis.com"></a>http://www.giorgosioannidis.com
-                </p>
-            </div>
+
             <div class="col-footer col-md-2 col-xs-6">
               <h3>Stay Connected</h3>
               <a target="_blank" title="find us on Facebook" href="https://www.facebook.com/g.ioannidi5"><img alt="follow me on facebook" src="//login.create.net/images/icons/user/facebook_30x30.png" border=0></a>
               <a target="_blank" title="follow me on twitter" href="https://twitter.com/g_ioannidi5"><img alt="follow me on twitter" src="//login.create.net/images/icons/user/twitter_30x30.png" border=0></a>
 
-             
 
-               <a target="_blank" title="check me on github" href="http://github.com/g-ioannidi5"> <%=image_tag 'GitHub-Mark-Light-32px.png', :border => 0, alt:"check me on github"%> </a>
+
+
                <a href="https://uk.linkedin.com/pub/giorgos-ioannidis/98/505/25a">
               <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Giorgos Ioannidis's profile on LinkedIn"> </a>
             </div>

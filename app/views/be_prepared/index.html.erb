@@ -1,9 +1,23 @@
-<h1>BePrepared#index</h1>
-<p>Find me in app/views/be_prepared/index.html.erb</p>
-
-
-<%= form_tag estimation_flight_path, :method => :get do %>
-    <p>
-      <%= text_field_tag :search, params[:search] %>
-      <%= submit_tag "Search Near", :name => nil %>
-<% end %>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <img src="temp1thinner.jpg" class="img-responsive center-block">
+    <p>Don’t you hate it when you arrive at the airport, ready to get on the plane to your location… and you get notified that the flight has been delayed? We hate that too!</p>
+    <h3 class="text-center">Allow us to make your life a little bit easier…
+    </h3>
+    <img src="htd.png" class="img-responsive center-block">
+    <h4>This service will warn you, before you even set foot in the airport, of any inconvenient delays that you might encounter. With this service you can kiss those long hours of waiting in crowded airports goodbye, and be prepared for the wait time!</h4>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well">
+          <form action="#">
+            <div class="input-group">
+              <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Type your Location" required>
+              <button class="btn btn-info btn-lg" type="submit">Track</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

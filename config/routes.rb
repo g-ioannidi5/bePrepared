@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
+  resources :locations
   root :to  => 'be_prepared#index'
 
   match 'about_us', :to => 'be_prepared#about_us', via: :get
 
   match 'resources', :to => 'be_prepared#resources', via: :get
 
-  match 'etsimation_flight', :to => 'be_prepared#etsimation_flight', via: :get
+  match 'estimation_flight', :to => 'be_prepared#estimation_flight', via: :get
 
 
   # The priority is based upon order of creation: first created -> highest priority.

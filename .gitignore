@@ -36,3 +36,7 @@ doc/
 *.xml
 
 *.xml
+
+.idea/workspace.xml
+
+.idea/dataSources.ids

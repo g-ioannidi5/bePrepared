@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'be_prepared/index'
+
+  get 'be_prepared/about_us'
+
+  get 'be_prepared/resources'
+
+  get 'be_prepared/etsimation_flight'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

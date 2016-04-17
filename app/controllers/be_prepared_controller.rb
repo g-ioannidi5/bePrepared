@@ -32,8 +32,16 @@ class BePreparedController < ApplicationController
           flash[:alert] = "Invalid location"
           redirect_to root_path
         else
-
           @results = response
+
+          if(@results["current_observation"]["weather"] == "Clear" || @results["current_observation"]["weather"] == "Partly Cloudy" || @results["current_observation"]["weather"] == "Mostly cloudy" || @results["current_observation"]["weather"] == "Light rain" || @results["current_observation"]["weather"] == "Scattered Clouds
+" )
+            @condition = "well"
+          elsif @results["current_observation"]["visibility_km"].to_f >= 5 && @results["current_observation"]["visibility_km"].to_f <= 8
+            @condition = "medium"
+          elsif @results["current_observation"]["visibility_km"].to_f < 5
+            @condition = "bad"
+          end
         end
       end
     else

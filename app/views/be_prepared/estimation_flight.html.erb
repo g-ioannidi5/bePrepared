@@ -27,7 +27,33 @@
         <p>Wind gust kph: <%= @results["current_observation"]["wind_gust_kph"]%>  kph</p>
       </div>
       <div class="col-lg-4">
-
+        <% if @condition == "well"  %>
+        <div class="clearfix">
+           <div class="c100 p100 big dark green">
+              <span>Low</span>
+              <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+              </div>
+           </div>
+        </div>
+        <% elsif @condition == "medium"  %>
+            <div class="c100 100 dark small orange">
+              <span>Medium%</span>
+              <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+              </div>
+            </div>
+        <% elsif @condition == "bad"  %>
+            <div class="c100 p100 dark big red">
+              <span>High</span>
+              <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+              </div>
+            </div>
+        <% end %>
       </div>
     </div>
   </div>

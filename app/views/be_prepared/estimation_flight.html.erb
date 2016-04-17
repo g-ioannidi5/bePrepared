@@ -17,7 +17,7 @@
         <p>longitude: <%= @results["current_observation"]["display_location"]["longitude"]%>  </p>
         </div>
       <div class="col-lg-4">
-        <h4>Wind</h4>
+        <h3>Wind</h3>
         <p>Wind String: <%= @results["current_observation"]["wind_string"]%>  </p>
         <p>Wind Dir: <%= @results["current_observation"]["wind_dir"]%>  </p>
         <p>Wind Degrees: <%= @results["current_observation"]["wind_degrees"]%>  &#176;</p>
@@ -27,6 +27,7 @@
         <p>Wind gust kph: <%= @results["current_observation"]["wind_gust_kph"]%>  kph</p>
       </div>
       <div class="col-lg-4">
+        <h3>Delay Probability</h3>
         <% if @condition == "well"  %>
         <div class="clearfix">
            <div class="c100 p100 big dark green">

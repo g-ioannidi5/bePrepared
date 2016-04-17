@@ -12,7 +12,22 @@
     <div class="row">
       <div class="col-lg-12">
         <h3>Feels like:</h3>
-        <p></p><%= @results["current_observation"]["feelslike_c"]  %> &#8451; </p>
+
+        <p>Weather Condition: <%= @results["current_observation"]["weather"]  %> </p>
+        <p>Temperature: <%= @results["current_observation"]["feelslike_c"]  %> &#8451; </p>
+        <p>Humidity: <%= @results["current_observation"]["relative_humidity"]  %> &#8451; </p>
+        <p>Current City: <%= @results["current_observation"]["display_location"] ["city"]%>  </p>
+        <p>latitude: <%= @results["current_observation"]["display_location"] ["latitude"]%>  </p>
+        <p>longitude: <%= @results["current_observation"]["display_location"] ["longitude"]%>  </p>
+        <h4>Wind</h4>
+        <p>Wind String: <%= @results["current_observation"]["wind_string"]%>  </p>
+        <p>Wind Dir: <%= @results["current_observation"]["wind_dir"]%>  </p>
+        <p>Wind Degrees: <%= @results["current_observation"]["wind_degrees"]%>  &#176;</p>
+        <p>Wind mph: <%= @results["current_observation"]["wind_mph"]%>  mph</p>
+        <p>Wind gust mph: <%= @results["current_observation"]["wind_gust_mph"]%>  mph</p>
+        <p>Wind kph: <%= @results["current_observation"]["wind_kph"]%>  kph</p>
+        <p>Wind gust kph: <%= @results["current_observation"]["wind_gust_kph"]%>  kph</p>
+
       </div>
     </div>
   </div>

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8475c35e-76e7-4f91-a1b1-1106ef977f46" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Bs/BS6pug55_tzcVZGTiBli7LvWnxc8Ty3DQH-KTGL8yL8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Bs/BS6pug55_tzcVZGTiBli7LvWnxc8Ty3DQH-KTGL8yL8.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/theme.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/theme.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/be_prepared/about_us.html.erb" afterPath="$PROJECT_DIR$/app/views/be_prepared/about_us.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/be_prepared/index.html.erb" afterPath="$PROJECT_DIR$/app/views/be_prepared/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/be_prepared/resources.html.erb" afterPath="$PROJECT_DIR$/app/views/be_prepared/resources.html.erb" />
     </list>
     <ignored path="bePrepared.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,18 +35,8 @@
       <file leaf-file-name="theme.css.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/theme.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="6380" column="21" selection-start-line="6380" selection-start-column="21" selection-end-line="6380" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="848">
+              <caret line="6384" column="40" selection-start-line="6384" selection-start-column="40" selection-end-line="6384" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -76,15 +67,15 @@
         <option value="$PROJECT_DIR$/app/views/locations/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/be_prepared/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/be_prepared/resources.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/theme.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/theme.scss" />
-        <option value="$PROJECT_DIR$/app/views/be_prepared/about_us.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/be_prepared/estimation_flight.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/theme.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/be_prepared/estimation_flight.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/be_prepared/resources.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/be_prepared/about_us.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/be_prepared/index.html.erb" />
       </list>
     </option>
   </component>
@@ -94,10 +85,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="x" value="1663" />
+    <option name="y" value="147" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -536,6 +527,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8475c35e-76e7-4f91-a1b1-1106ef977f46" name="Default" comment="" />
@@ -545,7 +539,7 @@
       <updated>1460799196878</updated>
       <workItem from="1460799197970" duration="413000" />
       <workItem from="1460801198615" duration="9897000" />
-      <workItem from="1460837421390" duration="8714000" />
+      <workItem from="1460837421390" duration="14118000" />
     </task>
     <task id="LOCAL-00001" summary="add bootstrap">
       <created>1460801615621</created>
@@ -575,17 +569,24 @@
       <option name="project" value="LOCAL" />
       <updated>1460885296033</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Titles h3 to the results view">
+      <created>1460893460727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1460893460727</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19024000" />
+    <option name="totallyTimeSpent" value="24428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="1663" y="147" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19116081" sideWeight="0.49485862" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.49485862" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -625,6 +626,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -633,7 +642,8 @@
     <MESSAGE value="add more information" />
     <MESSAGE value="fix problem with images&#10;asset path" />
     <MESSAGE value="three columns results" />
-    <option name="LAST_COMMIT_MESSAGE" value="three columns results" />
+    <MESSAGE value="Titles h3 to the results view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Titles h3 to the results view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -772,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/location.rb" />
     <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb" />
     <entry file="file://$PROJECT_DIR$/app/views/locations/show.html.erb" />
@@ -845,42 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/be_prepared/resources.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/be_prepared/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/be_prepared/estimation_flight.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/be_prepared/about_us.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -893,10 +863,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/be_prepared/resources.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/be_prepared/estimation_flight.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/be_prepared/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/be_prepared/about_us.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="128" selection-start-line="38" selection-start-column="128" selection-end-line="38" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/theme.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="6380" column="21" selection-start-line="6380" selection-start-column="21" selection-end-line="6380" selection-end-column="21" />
+        <state relative-caret-position="848">
+          <caret line="6384" column="40" selection-start-line="6384" selection-start-column="40" selection-end-line="6384" selection-end-column="40" />
           <folding />
         </state>
       </provider>
